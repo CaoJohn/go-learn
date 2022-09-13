@@ -4,6 +4,8 @@ import (
 	"os"
 )
 
+// https://learnku.com/docs/the-way-to-go/chapter-description/3598
+
 func main(){
     var str string = "go is a beautiful language"
     path := os.Getenv("PATH")
