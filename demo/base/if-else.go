@@ -10,7 +10,7 @@ func main(){
     path := os.Getenv("PATH")
     if strings.HasPrefix(str, "h") {
         fmt.Printf("String has h in prefix: %s\n", str)
-    }else strings.HasPrefix(str, "x"){
+    }else if strings.HasPrefix(str, "x"){
         fmt.Printf("String has x in prefix: %s\n", str)
     }else{
         fmt.Printf("String has not been matched in prefix: %s\n", str)
